@@ -7,7 +7,7 @@ def main() -> None:
     promedio = 86.5  # float: numero decimal
     nombre = "Ana"  # str: texto
     esta_aprobado = True  # bool: verdadero o falso
-
+    esta_aprobado = "True"
     print("Tipos de datos")
     print(f"Nombre: {nombre} ({type(nombre).__name__})")
     print(f"Edad: {edad} ({type(edad).__name__})")

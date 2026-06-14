@@ -54,7 +54,7 @@ def main() -> None:
     mostrar_tickets(tickets)
 
     print("\nBúsqueda por código:")
-    buscar_ticket(tickets, 102)
+    buscar_ticket(tickets, 1022)
 
 
 if __name__ == "__main__":

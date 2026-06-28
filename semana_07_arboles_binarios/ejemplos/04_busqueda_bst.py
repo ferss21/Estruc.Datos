@@ -67,7 +67,7 @@ def main() -> None:
 
     print("=== Ejemplo 4: Busqueda en BST ===")
     imprimir_resultado(arbol, 40)
-    imprimir_resultado(arbol, 90)
+    imprimir_resultado(arbol, 80)
 
 
 if __name__ == "__main__":

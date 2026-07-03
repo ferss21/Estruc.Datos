@@ -1,4 +1,24 @@
-"""Práctica: sistema completo de operaciones con un árbol binario de búsqueda."""
+"""Práctica de clase: operaciones con un árbol binario de búsqueda.
+
+DIRECTRIZ DE LA ACTIVIDAD
+Ejecute el programa y utilice el menú para practicar la inserción, búsqueda,
+recorridos, medición y eliminación de valores en un árbol binario de búsqueda.
+Compruebe después de cada modificación que el recorrido inorden permanece
+ordenado de menor a mayor.
+
+CASO PRÁCTICO
+El programa inicia con los valores 50, 30, 70, 20, 40, 60 y 80.
+
+1. Muestre el resumen inicial del árbol.
+2. Busque 40 y 99 para observar una búsqueda exitosa y una fallida.
+3. Inserte 65 e intente insertar nuevamente 50 para comprobar que no se
+   admiten valores duplicados.
+4. Elimine 20 para aplicar el caso de un nodo hoja.
+5. Elimine 60 para aplicar el caso de un nodo con un hijo.
+6. Elimine 70 para aplicar el caso de un nodo con dos hijos.
+7. Muestre el recorrido inorden y el resumen después de cada eliminación para
+   verificar que el árbol conserva la propiedad de búsqueda.
+"""
 
 
 class Nodo:
@@ -342,4 +362,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

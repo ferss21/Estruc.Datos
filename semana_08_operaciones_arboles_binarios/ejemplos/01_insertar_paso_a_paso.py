@@ -76,7 +76,7 @@ def main() -> None:
 
     print("=== Ejemplo 01: Inserción paso a paso ===")
     print("Árbol inicial (inorden):", arbol.inorden())
-    insertado, ruta = arbol.insertar_con_ruta(65)
+    insertado, ruta = arbol.insertar_con_ruta(10)
     print("Valor a insertar: 65")
     print("Comparaciones realizadas:")
     for paso in ruta:

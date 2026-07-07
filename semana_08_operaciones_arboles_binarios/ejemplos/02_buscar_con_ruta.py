@@ -64,7 +64,7 @@ def main() -> None:
         arbol.insertar(valor)
 
     print("=== Ejemplo 02: Búsqueda con ruta ===")
-    for buscado in [40, 65, 99]:
+    for buscado in [40, 65, 99, 200]:
         encontrado, ruta, decisiones = arbol.buscar_con_ruta(buscado)
         print(f"\nBuscar {buscado}")
         print("Ruta:", " -> ".join(str(valor) for valor in ruta))

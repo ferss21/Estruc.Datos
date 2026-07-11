@@ -11,6 +11,7 @@ class ConjuntoSimple:
 
     def agregar(self, valor: int) -> bool:
         """Agrega el valor solamente si todavía no existe."""
+        # Esta validación imita la regla principal del tipo set.
         if self.contiene(valor):
             return False
         self.elementos.append(valor)

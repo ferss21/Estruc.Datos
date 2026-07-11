@@ -5,6 +5,7 @@ def main() -> None:
     """Descarta los códigos compartidos entre dos grupos."""
     grupo_a = {101, 102, 103, 104}
     grupo_b = {103, 104, 105, 106}
+    # Los códigos que aparecen en ambos grupos quedan fuera del resultado.
     exclusivos = grupo_a ^ grupo_b
 
     print("=== Ejemplo 07: Diferencia simétrica ===")

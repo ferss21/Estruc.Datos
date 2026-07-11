@@ -6,6 +6,7 @@ def main() -> None:
     inscritos = {101, 102, 103, 104, 105}
     entregaron = {101, 103, 105}
 
+    # Todas las entregas deben corresponder a estudiantes inscritos.
     print("=== Ejemplo 08: Subconjuntos ===")
     print("Inscritos:", sorted(inscritos))
     print("Entregaron:", sorted(entregaron))

@@ -16,11 +16,9 @@ Esta semana inicia el estudio de los conjuntos. Un conjunto permite guardar dato
 
 ## Estructura de carpetas
 
-- `conceptos`: guía de estudio y vocabulario de la semana.
 - `ejemplos`: doce programas independientes con situaciones académicas.
-- `practica_clase`: sistema de análisis de grupos, pruebas y preguntas.
-- `retos`: cinco ejercicios con secciones `TODO` para completar.
-- `evaluacion`: checklist de entrega y rúbrica.
+- `practica_clase`: una práctica guiada para analizar grupos académicos.
+- `evaluacion`: una tarea evaluada, su checklist y la rúbrica.
 
 ## Comandos de ejecución con Python
 
@@ -40,16 +38,19 @@ python ejemplos/10_set_y_dict.py
 python ejemplos/11_eliminar_duplicados.py
 python ejemplos/12_conjunto_personalizado.py
 python practica_clase/main.py
+python evaluacion/tarea_evaluada.py
 ```
 
 ## Conceptos clave
 
 Un `set` no repite elementos. La unión reúne datos; la intersección conserva los comunes; la diferencia obtiene los que están en un conjunto y no en otro; la diferencia simétrica encuentra los exclusivos. Para presentar resultados ordenados se usa `sorted()`, porque el conjunto no mantiene una posición fija para sus elementos.
 
+Los conceptos se explican directamente en los ejemplos, junto con su aplicación. También se compara `list`, `set` y `dict`, y se explica que un elemento de un conjunto debe ser *hashable*, es decir, tener un identificador estable mientras está almacenado.
+
 ## Evidencia esperada
 
 - Capturas de la ejecución de los doce ejemplos.
 - Pruebas del menú de la práctica de clase.
 - Resultados de las cuatro operaciones principales.
-- Retos completados y explicación de las decisiones tomadas.
+- Tarea evaluada completada y explicación de las decisiones tomadas.
 - Respuestas a las preguntas de análisis.

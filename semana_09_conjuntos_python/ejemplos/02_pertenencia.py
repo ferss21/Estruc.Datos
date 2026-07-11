@@ -7,6 +7,7 @@ def main() -> None:
     codigo_buscado = 103
     codigo_ausente = 104
 
+    # La consulta de pertenencia no modifica el conjunto.
     print("=== Ejemplo 02: Pertenencia ===")
     print("Asistencia:", sorted(asistieron))
     print(f"¿Asistió {codigo_buscado}?", codigo_buscado in asistieron)

@@ -3,6 +3,7 @@
 
 def obtener_unicos(codigos: list[int]) -> set[int]:
     """Convierte la lista recibida en un conjunto."""
+    # La conversión crea una colección nueva con valores únicos.
     return set(codigos)
 
 

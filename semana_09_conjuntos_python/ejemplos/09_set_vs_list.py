@@ -4,6 +4,7 @@
 def main() -> None:
     """Señala cuándo importa repetir datos y cuándo importa la unicidad."""
     registros = [101, 102, 101, 103, 102]
+    # La conversión elimina repeticiones, no modifica la lista original.
     estudiantes = set(registros)
 
     print("=== Ejemplo 09: set frente a list ===")

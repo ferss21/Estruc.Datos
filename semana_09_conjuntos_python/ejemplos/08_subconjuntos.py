@@ -11,7 +11,8 @@ def main() -> None:
     print("Inscritos:", sorted(inscritos))
     print("Entregaron:", sorted(entregaron))
     print("¿Entregaron es subconjunto de inscritos?", entregaron.issubset(inscritos))
-    print("¿Inscritos es superconjunto de entregaron?", inscritos.issuperset(entregaron))
+    ## validar porque este mando valor true
+    print("¿Inscritos es superconjunto de entregaron?", inscritos.issubset(entregaron))
 
 
 if __name__ == "__main__":

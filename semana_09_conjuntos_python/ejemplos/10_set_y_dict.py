@@ -3,7 +3,7 @@
 
 def main() -> None:
     """Cruza códigos únicos con información asociada a cada código."""
-    asistieron = {101, 103, 105}
+    asistieron = {101, 103, 105, 106}
     notas = {101: 92, 102: 78, 103: 85, 105: 95}
 
     print("=== Ejemplo 10: set y dict ===")

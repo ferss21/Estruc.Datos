@@ -8,6 +8,7 @@ def main() -> None:
     estudiantes_unicos = set(asistencia)
 
     # sorted() se utiliza únicamente para presentar una salida ordenada.
+    # .$&19aAzZ
     print("=== Ejemplo 01: Crear conjuntos ===")
     print("Cursos:", sorted(cursos))
     print("Registro original:", asistencia)
